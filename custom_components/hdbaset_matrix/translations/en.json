@@ -1,0 +1,39 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "HDBaseT Matrix",
+        "description": "IP address of the matrix web interface.",
+        "data": {
+          "host": "Host",
+          "name": "Name"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Could not reach the matrix.",
+      "invalid_host": "Invalid host."
+    },
+    "abort": {
+      "already_configured": "This matrix is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Port names",
+        "data": {
+          "input_1": "Input 1 name",
+          "input_2": "Input 2 name",
+          "input_3": "Input 3 name",
+          "input_4": "Input 4 name",
+          "output_1": "Output 1 name",
+          "output_2": "Output 2 name",
+          "output_3": "Output 3 name",
+          "output_4": "Output 4 name",
+          "scan_interval": "Poll interval (seconds)"
+        }
+      }
+    }
+  }
+}
