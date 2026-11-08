@@ -1,10 +1,13 @@
 # HDBaseT Matrix for Home Assistant
 
-Local control of the common white-label **4x4 HDBaseT HDMI matrix** whose web page is titled
-"HDBaseT Matrix" and is driven by `TimSendCmd.CGI` / `VIDDivSta.CGI` style CGI endpoints.
+Local control of the **Foxun 4x4 4K HDBaseT HDMI Matrix** (and other white-label 4x4 HDBaseT matrices
+built on the same hardware) whose web page is titled "HDBaseT Matrix" and is driven by
+`TimSendCmd.CGI` / `VIDDivSta.CGI` style CGI endpoints.
 
-Replaces piles of `rest_command:` entries with a proper integration that **reads the matrix's real state**
-(routing, output power, audio, EDID) so changes made from the front panel or IR remote show up in Home Assistant.
+Developed and tested against a Foxun 4x4 4K HDBaseT matrix.
+
+The integration **reads the matrix's real state** (routing, output power, audio, EDID), so changes made from the
+front panel or IR remote show up in Home Assistant.
 
 ## Features
 
